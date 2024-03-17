@@ -1,0 +1,55 @@
+.content .mission-container {
+    background-image: url("/images/about/mission2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.content .mission-container .tag-s{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.568);
+    height: 80px;
+    width: 600px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    font-size: 30px;
+    padding: 45px;
+    margin-left: 260px;
+    font-weight: 600;
+    color: #eb352f;
+}
+.content .m-text-container{
+    width: 100%;
+    height: 600px;
+    padding: 90px;
+    padding-left: 260px;
+    padding-right: 260px;
+    background-color: rgb(233,236,239);
+}
+.content .m-text-container .t-text{
+    font-weight: 400;
+    font-size: 18px;
+    color: rgb(38,125,170);
+}
+.content .m-text-container .g-text span{
+    font-size: 25px;
+    font-weight: 300;
+}
+.content .m-text-container .g-text .list-container{
+    display: flex;
+    flex-direction: row;
+}
+
+.content .m-text-container .g-text .list-container ul:nth-child(2){
+    margin-left: 80px;
+}
+
+.content .m-text-container .g-text .list-container ul li{
+    margin-top: 20px;
+    font-size: 18px;
+}
